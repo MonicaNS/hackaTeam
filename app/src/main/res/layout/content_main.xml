@@ -51,7 +51,7 @@
             android:layout_marginTop="198dp"
             android:layout_marginLeft="36dp"
             android:inputType="textMultiLine"
-            android:text="Enter your technical/soft skills here"
+            android:text="Java, C++, Android Studio"
             android:textColor="#80000000"></EditText>
 
 
@@ -105,7 +105,7 @@
         android:layout_marginBottom="150dp"
         android:background="@drawable/box"
         android:gravity="center"
-        android:text="Add anything else that would help match you better, including interests."
+        android:text="I am an undergrad SJSU student who is very passionate about meeting new people and love to code."
         android:textColor="#80000000">
 
     </EditText>
