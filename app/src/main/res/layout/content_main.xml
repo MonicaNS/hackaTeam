@@ -152,7 +152,7 @@
         android:layout_width="wrap_content">
 
         <ImageView
-            android:layout_width="200dp"
+            android:layout_width="380dp"
             android:layout_height="150dp"
             android:src="@drawable/background_rectangle"/>
 
@@ -169,11 +169,14 @@
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:scaleType="fitXY"
-                android:layout_centerHorizontal="true"
+
                 android:src="@drawable/profile_pic" />
         </androidx.cardview.widget.CardView>
 
     </FrameLayout>
+
+
+
 
 
 </RelativeLayout>
