@@ -45,6 +45,8 @@ public class SignUp extends AppCompatActivity {
 
     public void openSubmit(){
         System.out.println("here");
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
     }
 
 
