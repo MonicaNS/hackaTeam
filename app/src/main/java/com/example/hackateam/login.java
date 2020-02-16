@@ -10,6 +10,7 @@ import android.widget.Button;
 public class login extends AppCompatActivity {
 
     Button back;
+    Button login;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,9 +23,21 @@ public class login extends AppCompatActivity {
                 backSignUp();
             }
         });
+        login = findViewById(R.id.submitLogin);
+        login.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                openProfile();
+            }
+        });
     }
     public void backSignUp(){
         Intent intent = new Intent(this, SignUp.class);
+        startActivity(intent);
+    }
+
+    public void openProfile(){
+        Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
 }
