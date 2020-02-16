@@ -36,7 +36,7 @@
             android:id="@+id/Skills"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="198dp"
+            android:layout_marginTop="200dp"
             android:layout_marginLeft="25dp"
             android:text="Skills:"
             android:textSize="24sp" />
@@ -48,10 +48,8 @@
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:layout_marginTop="189dp"
-            android:layout_marginEnd="46dp"
-            android:layout_marginLeft="35dp"
-            android:layout_marginRight="46dp"
+            android:layout_marginTop="198dp"
+            android:layout_marginLeft="36dp"
             android:inputType="textMultiLine"
             android:text="Enter your technical/soft skills here"
             android:textColor="#80000000"></EditText>
@@ -72,7 +70,7 @@
         android:layout_marginRight="46dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Add a link here."
+        android:text="https://github.com/MonicaNS/FunFacts.git"
         android:textColor="#80000000">
     </EditText>
 
@@ -95,9 +93,7 @@
         android:text="About you:"
         android:textSize="22sp" />
 
-    <!-- 1- Content wrap isnt working.
-    2-The box stroke needs to be visible
-    4-Box stroke-->
+
     <EditText
         android:id="@+id/aboutYouText"
         android:layout_width="wrap_content"
