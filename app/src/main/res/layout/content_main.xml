@@ -151,10 +151,21 @@
         android:layout_height="wrap_content"
         android:layout_width="wrap_content">
 
-        <ImageView
-            android:layout_width="380dp"
-            android:layout_height="150dp"
-            android:src="@drawable/background_rectangle"/>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/rectangleCardView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="50dp"
+            app:cardCornerRadius="0dp">
+
+            <ImageView
+                android:layout_width="385dp"
+                android:layout_height="150dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/mlh_background" />
+        </androidx.cardview.widget.CardView>
+
+
 
         <androidx.cardview.widget.CardView
             android:id="@+id/roundCardView"
@@ -169,7 +180,6 @@
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:scaleType="fitXY"
-
                 android:src="@drawable/profile_pic" />
         </androidx.cardview.widget.CardView>
 
