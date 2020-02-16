@@ -26,6 +26,7 @@
             android:textStyle="bold"
             android:layout_margin="5dp"
             android:textSize="20sp"
+            android:id="@+id/name"
             />
 
         <TextView
@@ -35,6 +36,7 @@
             android:textStyle="bold"
             android:layout_margin="5dp"
             android:textSize="15sp"
+            android:id="@+id/skills"
             />
 
     </LinearLayout>
